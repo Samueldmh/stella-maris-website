@@ -1,0 +1,48 @@
+{% extends "header.html" %}
+{% block body %}
+<div class="card">
+    <div class="card-body">
+        <form method="post" action="/contact" novalidate>
+            {{contact_form.csrf_token}}
+            <fieldset>
+                {{contact_form.name.label(class='label')}}<br> 
+                {{contact_form.name(class_='input', placeholder='name')}}
+                {% if contact_form.name.errors %}
+                        {% for error in contact_form.name.errors %}
+                            <div style="color:red">{{ error }}</div>
+                        {% endfor %}
+                {% endif %}
+
+            </fieldset>      
+            <fieldset>
+                {{contact_form.phone.label(class='label')}}<br>
+                {{contact_form.phone(class_='input')}}
+                {% if contact_form.phone.errors %}
+                        {% for error in contact_form.phone.errors %}
+                            <div style="color:red">{{ error }}</div>
+                        {% endfor %}
+                {% endif %}
+            </fieldset>
+            <fieldset>
+                {{contact_form.email.label(class='label')}}<br>
+                {{contact_form.email(class_='input', placeholder='email')}}
+                {% if contact_form.email.errors %}
+                        {% for error in contact_form.email.errors %}
+                            <div style="color:red">{{ error }}</div>
+                        {% endfor %}
+                {% endif %}
+            </fieldset>
+            <fieldset>
+                {{contact_form.message.label(class='label')}}<br>
+                {{contact_form.message(class_='input', placeholder='I love stella maris')}}
+                {% if contact_form.message.errors %}    
+                        {% for error in contact_form.message.errors %}
+                            <div style="color:red">{{ error }}</div>
+                        {% endfor %}
+                {% endif %}
+            </fieldset>
+            {{contact_form.submit(class='submit')}}
+        </form>           
+  </div>
+</div>
+{% endblock body %}

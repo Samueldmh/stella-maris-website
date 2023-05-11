@@ -1,0 +1,249 @@
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+hr{
+    border: none;
+    border-top: 3px;
+    color:#333;
+}
+
+
+.first-section{
+    background-image: url("header-image.jpeg");
+    background-size:contain;
+    height:680px;
+}
+
+
+.first-section-text{
+    text-align:center;
+    line-break: strict;
+    letter-spacing:15px;
+    color:white;
+    font-size:67px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.navbar{
+    padding-left:60px;
+    padding-right:60px;
+}
+
+@media(max-width:415px){
+    .first-section-text{
+        font-size:-webkit-xxx-large
+            }
+    .navbar{
+        padding-left:10px;
+        padding-right:10px
+    }
+}
+
+
+@media(min-width:990px){
+    .nav-item{
+        margin-left:60px
+    }
+}
+
+.second-section, .forth-section, .sixth-section{
+    background-color: #849BEE;
+    background-image: url("download.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.second-section{
+    padding:50px;
+}
+
+.church-name{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.description{
+    text-align:center;
+    letter-spacing: 0em;
+    margin-bottom:60px;
+}
+
+.gathering-times{
+    font-size:40px;
+    text-align:center;
+    font-family:'Roboto Slab', serif;
+    letter-spacing:2px;
+    margin-bottom:40px
+}
+
+.gathering-div{
+    margin-bottom:45px;
+    font-size: 20px;
+    text-align:center
+}
+
+.third-section{
+    background-image: url("https://rrgracecc.wpengine.com/wp-content/uploads/2019/11/Giving-Photo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height:500px;
+    position:relative
+}
+
+.give{
+    width:100%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:right;
+    color:white;
+    font-size: 15px;
+    padding-left:10%;
+    padding-right:10%
+}
+
+@media(min-width:500px){
+    .give{
+        padding-left:40%;
+        padding-right:10%
+    }
+}
+
+
+.give-heading{
+    font-weight:550;
+    font-size:30px;
+    width:100%;
+    margin-bottom:25px;
+    font-family:'Roboto Slab', serif;
+}
+
+
+.give-text{
+    margin-bottom:25px
+}
+
+.btn{
+    border-width: 3px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-bottom: 20px
+}
+
+.forth-section{
+    text-align:center;
+    padding: 0 10% 0 10%;
+}
+
+.pious{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    padding-top:30px;
+    margin-bottom: 30px
+}
+
+.pious-text{
+    padding-bottom: 30px
+}
+
+.pious-image{
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.fifth-section{
+    position: relative;
+    background-image:url("https://media.istockphoto.com/id/182235935/photo/wiveton-church-altar.jpg?b=1&s=170667a&w=0&k=20&c=B1iNqp1MhcYYBlHGit3AS_JzTP8c5vQZ8TyRuqfYdF4=");
+    background-size: contain;
+}
+
+
+.activities{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.d-block{
+    position:relative;
+    top:-32px
+}
+
+.div-content{
+    background-color: azure;
+    text-align: center;
+    border-radius: 10%;
+
+}
+
+.div-content>img{
+    border-radius: 10%;
+    height:200px
+}
+
+.div-content::before{
+position: relative;
+content: "xxx";
+height:96px;
+top: 25px
+}
+
+.carousel-item{
+    margin-bottom: 40px;
+    /* height: 200px; */
+}
+
+
+.sixth-section{
+    display: grid;
+    place-content: center
+}
+
+
+.get-in-touch{
+    margin-top:50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size:40px
+}
+.contact{
+    text-align: center;
+    padding:7%
+}
+
+footer{
+    padding:30px;
+    background-color: black;
+    font-size: medium;
+    line-height: 25px;
+    padding-left: 3%;
+    color: grey;
+}
+
+.copyright{
+    text-align:center   
+}
+
+fieldset{
+    margin-bottom: 10px 
+}
+
+.label{
+    font-family:'Roboto Slab', serif;
+}
+
+.card{
+    margin: 70px 0 40px 0;
+    display: grid;
+    place-content: center
+}

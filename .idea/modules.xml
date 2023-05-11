@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../blog with flask login/.idea/blog with flask login.iml" filepath="$PROJECT_DIR$/../blog with flask login/.idea/blog with flask login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/stella matris website.iml" filepath="$PROJECT_DIR$/.idea/stella matris website.iml" />
+    </modules>
+  </component>
+</project>
